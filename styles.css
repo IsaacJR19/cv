@@ -1,0 +1,176 @@
+/*Inician Estilos*/
+
+body{/*Color a la pagina y estructura basica*/
+    margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 90%;
+}
+
+body:before{
+    content:"";
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(90deg,#196a8f,rgb(234, 0, 255));
+    opacity: .5;
+    z-index: -1;
+}
+/* Imagenes estilo predeterminado*/
+img{
+	border-radius: 8px;
+}
+
+/* Header */
+header {
+	text-align: center;
+	display: block;
+}
+
+header .profileHeader h1 {
+	font-family: sans-serif;
+	color: rgb(11, 24, 66);
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+header .profileHeader h3 {
+	font-family: sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+}
+hr {
+	background-color: rgb(0, 0, 0);
+	height: 0.5px;
+}
+
+header .profileHeader p {
+	font-family: sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.8;
+	overflow-y: auto;
+}
+
+/*Empieza a estilizar Section: SeccionPrincipal*/
+
+.seccionPrincipal .seccion1 {
+	display: block;
+}
+
+.seccionTitle{
+    font-family: sans-serif;
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p span{
+    font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 800;
+	color: rgb(0, 0, 0);
+}
+.seccionPrincipal .seccion1 .seccion1Contenido {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	color: rgb(0, 0, 0);
+	
+}
+
+.langtext{
+    font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: rgb(0, 0, 0);
+
+}
+
+.seccionSubtitulo{
+    font-family: sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	font-weight: 1000;
+}
+.seccionContenido{
+    font-family: sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 14px;	 
+
+}
+.tablaStyle{
+	font-family: sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 14px;
+	text-align:end;
+}
+
+.tablaStyle {
+    display: block;
+    margin-top: 0%;
+    margin-right: 50%;
+    margin-left: 30%;
+    margin-bottom: 0%;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Graficas */
+
+.container {
+	padding-left: 0%;
+	text-align: center;
+	width: 50%; /* Full width */
+	background-color: rgb(221, 221, 221); /* Grey background */
+}
+.skill {
+	text-align: center; /* Right-align text */
+	padding-top: 5px; /* Add top padding */
+	padding-bottom: 5px; 
+	color: rgb(255, 255, 255); 
+}
+
+
+.html {width: 70%; background-color: #d37000;} 
+.CSS {width: 70%; background-color: #2196F3;}
+.cpp {width: 70%; background-color: #120052;} 
+.python {width: 60%;background-color: rgb(241, 237, 0);}
+.csharp {width: 10%;background-color: blueviolet;}
+.MATLAB {width: 60%; background-color: #550303;} 
+
+
+footer .footerDisclaimer {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgb(0, 0, 0);
+	font-weight: 700;
+}
+footer .footerDisclaimer span {
+	color: rgb(0, 0, 0);
+	font-weight: 400;
+}
+footer .footerNote {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgb(0, 0, 0);
+	font-weight: 700;
+}
