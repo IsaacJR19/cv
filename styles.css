@@ -10,7 +10,7 @@ body{/*Color a la pagina y estructura basica*/
 body:before{
     content:"";
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     position: absolute;
     top: 0;
     left: 0;
